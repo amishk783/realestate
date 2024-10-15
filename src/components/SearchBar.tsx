@@ -1,4 +1,4 @@
-import React from "react";
+
 import line from "../assets/Line.png";
 import { CalendarDays } from "lucide-react";
 export const SearchBar = () => {

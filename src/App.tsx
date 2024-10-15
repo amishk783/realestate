@@ -277,6 +277,31 @@ function App() {
           </div>
         </div>
       </div>
+      <div className=" py-20 bg-secondary">
+        <div className=" flex flex-col gap-5 justify-center items-center max-container">
+          <p className=" text-primary font-medium text-lg">No Spam Promise</p>
+          <h4 className=" font-bold text-5xl text-black">
+            Are you a Landlord?
+          </h4>
+          <p className=" text-slate-500 text-lg">
+            Discover ways to increase your home's value and get listed. No Spam.
+          </p>
+          <div className="flex gap-4 w-full justify-center">
+            <input
+              type="text"
+              className=" p-4 bg-white rounded-lg w-1/3  "
+              placeholder="Enter your email address"
+            />
+            <button className=" text-white bg-primary px-8 rounded-lg">
+              Submit
+            </button>
+          </div>
+          <p className=" text-slate-600">
+            Join
+            <span className="text-primary font-medium"> 10,000+</span> other landlords in our estatery community.
+          </p>
+        </div>
+      </div>
     </main>
   );
 }
